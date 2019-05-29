@@ -28,7 +28,7 @@ namespace Mithril
                 {
                     Debug.WriteLine(opt);
                     Console.Clear();
-                    MenuMaker.CreateBookingsMenu();
+                    MenuMaker.CreateCustomerMenu();
                     Console.Title = $"Mithril - Hotel Booking ({opt}) (Unregistered)";
                     Console.ReadLine();
                 }));

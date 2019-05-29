@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Data\DataManager.cs" />
     <Compile Include="Core\Menus\MenuMaker.cs" />
     <Compile Include="Core\Options\OptionHelper.cs" />
     <Compile Include="Program.cs" />

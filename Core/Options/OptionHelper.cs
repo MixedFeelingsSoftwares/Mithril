@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -19,7 +20,6 @@ namespace Mithril.Core.Options
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.Write($" {opt}\n");
                 Console.ForegroundColor = ConsoleColor.Gray;
-
             }
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Yellow;
